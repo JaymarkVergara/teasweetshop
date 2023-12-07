@@ -1,0 +1,71 @@
+:root{
+    --clr-dark: #020617 ;
+    --clr-light: #f1f5f9;
+
+    --clr-amber-300:#fcd34d;
+    --clr-amber-500: #f59e0b;
+    --clr-amber-600: #d97706;
+    --clr-amber-400:  #fbbf24;
+
+    --clr-orange-600: #ea580c;
+    --clr-orange-700:#c2410c;
+    --clr-orange-800: #9a3412;
+    --clr-orange-900:#7c2d12;
+    --clr-orange-1000: #431407;
+    
+
+  --sizes-xxs: 0.5rem;
+  --sizes-xs: 0.75rem;
+  --sizes-sm: 0.875rem ;
+  --sizes-base: 1rem;
+  --sizes-lg: 1.125rem;
+  --sizes-xl: 1.25rem;
+  --sizes-2xl: 1.5rem;
+  --sizes-3xl: 1.875rem;
+  --sizes-4xl: 2.25rem;
+  --sizes-5xl: 3rem;
+  --sizes-6xl: 3.75rem;
+  --sizes-7xl: 4.5rem;
+  --sizes-8xl: 6rem;
+  --sizes-9xl: 8rem;
+  --sizes-10xl: 10rem;
+  
+}
+
+*{
+    margin: 0;
+    line-height: calc(1em + 0.5em);
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'EB Garamond', sans-serif;
+}
+
+img,
+picture,
+canvas,
+svg{
+    display: block;
+    width: 100%;
+    user-select: none;
+}
+
+button{
+    display: inline-block;
+    padding: 0;
+    background: none;
+    cursor: pointer;
+    border: none;
+}
+
+a{
+    color: var(--clr-orange-700);
+}
+
+strong{
+    color: var(--clr-amber-600);
+}

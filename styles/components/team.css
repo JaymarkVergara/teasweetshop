@@ -1,0 +1,134 @@
+.team-main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.team-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--clr-dark);
+    width: 200px;
+    transition: all 0.5s ease-in-out ;
+}
+
+
+.team-img{
+    width: 100%;
+    background-color: var(--clr-orange-600);
+}
+
+.team-details{
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.team-details h3{
+    font-size: var(--sizes-xl);
+}
+.team-details p{
+    font-size: var(--sizes-base);
+}
+
+
+/* xs */
+@media (min-width: 475px){
+    .team-main-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1.5rem;
+    }
+    
+    .team-container{
+        width: 250px;
+    }
+    
+    .team-details{
+        padding: 0.5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .team-details h3{
+        font-size: var(--sizes-2xl);
+    }
+    .team-details p{
+        font-size: var(--sizes-lg);
+    }
+}
+
+/* sm */
+/* @media (min-width: 640px){
+   
+} */
+
+/* md */
+/* @media (min-width: 768px){
+   
+} */
+
+/* lg */
+@media (min-width: 1024px){
+    .team-main-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+    
+    .team-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid var(--clr-dark);
+        width: 250px;
+    }
+    
+    
+    .team-img{
+        width: 100%;
+        background-color: var(--clr-orange-600);
+    }
+    
+    .team-details{
+        padding: 0.5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .team-details h3{
+        font-size: var(--sizes-3xl);
+    }
+    .team-details p{
+        font-size: var(--sizes-lg);
+    }
+
+    .team-container:hover{
+        width: 260px;
+    }
+}
+
+/* xl */
+/* @media (min-width: 1280px){
+  
+} */
+
+/* 2xl */
+/* @media (min-width: 1536px){
+    
+} */

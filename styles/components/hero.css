@@ -1,0 +1,224 @@
+.hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    gap: 2rem;
+}
+
+.hero-description-container{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.hero-title{
+    font-size: var(--sizes-4xl);
+    color: var(--clr-orange-1000);
+    line-height: 0.9;
+    text-transform: uppercase;
+    letter-spacing: -0.06em;
+    font-weight: 800;
+}
+
+.hero-description{
+    font-size: var(--sizes-sm);
+    color: var(--clr-dark);
+    max-width: 60ch;
+}
+
+.hero-img-container{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.hero-circle{
+    position: absolute;
+    top: -5px;
+    border-radius: 50%;
+    width: 100%;
+    height: 200px;
+    background-color: var(--clr-orange-1000);
+    z-index: -1;
+}
+
+.hero-btn{
+    font-size: var(--sizes-sm);
+    text-transform: capitalize;
+}
+
+.hero-img-container .hero-img{
+    height: 150px;
+    width: 150px;
+}
+
+
+/* xs */
+@media (min-width: 475px){
+    .hero{
+        display: flex;
+        gap: 1.5rem;
+    }
+    .hero-title{
+        font-size: var(--sizes-5xl);
+    }
+    
+    .hero-description{
+        font-size: var(--sizes-base);
+    }
+    
+    .hero-img-container{
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 2rem;
+    }
+    
+    .hero-circle{
+        position: absolute;
+        top: -5px;
+        border-radius: 50%;
+        width: 100%;
+        height: 100%;
+        background-color: var(--clr-orange-1000);
+        z-index: -1;
+    }
+    
+    .hero-btn{
+        font-size: var(--sizes-base);
+    }
+    
+    .hero-img-container .hero-img{
+        height: 200px;
+        width: 200px;
+    }
+    
+}
+
+/* sm */
+/* @media (min-width: 640px){
+   
+} */
+
+/* md */
+/* @media (min-width: 768px){
+   
+} */
+
+/* lg */
+@media (min-width: 1024px){
+    .hero{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 1.5rem;
+      
+    }
+    
+    .hero-description-container{
+        display: flex;
+        text-align: left;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items:  flex-start;
+        gap: 1rem;
+    }
+    
+    .hero-title{
+        font-size: var(--sizes-6xl);
+    }
+    
+    .hero-description{
+        font-size: var(--sizes-lg);
+    }
+    
+    .hero-img-container{
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 2rem;
+    }
+    
+    .hero-circle{
+        position: absolute;
+        top: -10px;
+        border-radius: 50%;
+        width: 100%;
+        height: 100%;
+        background-color: var(--clr-orange-1000);
+        z-index: -1;
+    }
+    
+    .hero-btn{
+        font-size: var(--sizes-lg);
+    }
+    
+    .hero-img-container .hero-img{
+        height: 270px;
+        width: 270px;
+    }
+}
+
+/* xl */
+@media (min-width: 1280px){
+    .hero-description-container{
+        display: flex;
+        text-align: left;   
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 1rem;
+        width: 100ch;
+    }
+    
+    .hero-title{
+        font-size: var(--sizes-7xl);
+
+    }
+    
+    .hero-description{
+        font-size: var(--sizes-2xl);
+    }
+    
+    .hero-img-container{
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 2rem;
+    }
+    
+    .hero-circle{
+        position: absolute;
+        top: -10px;
+        border-radius: 50%;
+        width: 100%;
+        height: 100%;
+        background-color: var(--clr-orange-1000);
+        z-index: -1;
+    }
+    
+    .hero-btn{
+        font-size: var(--sizes-2xl);
+    }
+    
+    .hero-img-container .hero-img{
+        height: 300px;
+        width: 300px;
+    }
+}
+
+/* 2xl */
+/* @media (min-width: 1536px){
+    
+} */

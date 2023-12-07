@@ -1,0 +1,58 @@
+.hero-description-container{
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 1s;
+}
+.herodescshow{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+.hero-img-container{
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateY(-100%);
+    transition: all 1s;
+}
+.heroimgshow{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateY(0);
+}
+
+.about-img-container, .contact-img-container{
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 1s;
+}
+
+.aboutimgshow, .contactimgshow{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+.about-description-container, .contact-details-container{
+    opacity: 0;
+    transition: all 1s;
+}
+
+.aboutdescshowm, .contactshow{
+    opacity: 1;
+}
+
+.menu-container{
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 1s;
+}
+
+.menushow{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
