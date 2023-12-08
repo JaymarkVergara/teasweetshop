@@ -69,3 +69,16 @@ a{
 strong{
     color: var(--clr-amber-600);
 }
+
+body::-webkit-scrollbar {
+    width: 8px;
+  }
+   
+  body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  }
+   
+  body::-webkit-scrollbar-thumb {
+    background-color: var(--clr-orange-600);
+    outline: 1px solid var(--clr-orange-1000);
+  }

@@ -10,6 +10,10 @@ const animation = () => {
                 entry.target.classList.add('menushow');
                 entry.target.classList.add('contactimgshow');
                 entry.target.classList.add('contactdescshow');
+                entry.target.classList.add('menudescshow');
+                entry.target.classList.add('tleftshow');
+                entry.target.classList.add('trightshow');
+                
             }else{
                 entry.target.classList.remove('herodescshow');
                 entry.target.classList.remove('heroimgshow');
@@ -18,6 +22,9 @@ const animation = () => {
                 entry.target.classList.remove('menushow');
                 entry.target.classList.remove('contactimgshow');
                 entry.target.classList.remove('contactdescshow');
+                entry.target.classList.remove('menudescshow');
+                entry.target.classList.remove('tleftshow');
+                entry.target.classList.remove('trightshow');
                 
             }
         })
@@ -31,12 +38,19 @@ const animation = () => {
    aboutImg.forEach((entry) => observer.observe(entry));
    const aboutdesc =  document.querySelectorAll('.about-description-container');
    aboutdesc.forEach((entry) => observer.observe(entry));
-   const menu =  document.querySelectorAll('.menu-container');
+   const menu =  document.querySelectorAll('.menu-img-container');
    menu.forEach((entry) => observer.observe(entry));
+   const menudesc =  document.querySelectorAll('.menu-description');
+   menudesc.forEach((entry) => observer.observe(entry));
    const contactimg =  document.querySelectorAll('.contact-img-container');
    contactimg.forEach((entry) => observer.observe(entry));
    const contactdesc =  document.querySelectorAll('.contact-details-container');
    contactdesc.forEach((entry) => observer.observe(entry));
+   const tleft =  document.querySelectorAll('.tleft');
+   tleft.forEach((entry) => observer.observe(entry));
+   const tright =  document.querySelectorAll('.tright');
+   tright.forEach((entry) => observer.observe(entry));
+
 
 }   
 

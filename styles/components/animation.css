@@ -44,15 +44,34 @@
     opacity: 1;
 }
 
-.menu-container{
+.menu-img-container, .menu-description{
     opacity: 0;
-    filter: blur(5px);
-    transform: translateX(-100%);
     transition: all 1s;
 }
 
-.menushow{
+.menushow, .menudescshow{
+    opacity: 1;
+}
+
+.tleft{
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateY(-100%);
+    transition: all 1s;
+}
+
+
+.tright{
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateY(+100%);
+    transition: all 1s;
+}
+
+
+.tleftshow , .trightshow{
     opacity: 1;
     filter: blur(0);
     transform: translateX(0);
 }
+
