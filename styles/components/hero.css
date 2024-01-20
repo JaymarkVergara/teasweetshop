@@ -80,6 +80,7 @@
         align-items: center;
         justify-content: center;
         padding: 2rem;
+        
     }
     
     .hero-circle{
@@ -90,6 +91,7 @@
         height: 100%;
         background-color: var(--clr-orange-1000);
         z-index: -1;
+       /*background-color: red; */
     }
     
     .hero-btn{
